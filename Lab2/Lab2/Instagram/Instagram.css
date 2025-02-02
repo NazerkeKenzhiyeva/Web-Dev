@@ -1,0 +1,186 @@
+body {
+    display: flex;
+    height: 56ch;
+    background-color: #fafafa;
+}
+
+.first-block {
+    position: relative;
+    width: 400px; 
+    top: 40px;
+}
+
+.phones {
+    position: relative;
+    top: 25px;
+    left: 300px;
+    width: 115%; 
+    display: block;
+}
+
+.page {
+    position: absolute;
+    top: 12%;
+    left: 457px;
+    width: 60%; 
+}
+.second-block {
+    background-color: #fafafa;
+    height: 400px;
+    width: 350px;
+    flex-direction: column;
+    position: relative;
+    top: 80px;
+    bottom: 0px;
+    left: 350px;
+    margin: 0;
+    padding: 0;
+    border: 0.2px solid rgb(178, 175, 175);
+    border-radius: 2px;
+    text-align: center;
+}
+.second-block input {
+    color: black;
+    font-weight: 400;
+    width: 250px;
+    margin: 5px 0px 0px 0px;
+    padding: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 0px;
+    font-size: 12px;
+}
+.second-block img {
+    width: 180px;
+    margin: 40px 0 30px 0;
+}
+.second-block input.vyhod {
+    background-color: rgb(113, 178, 243);
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    height: 33px;
+    width: 275px;
+    position: relative;
+    top: 13px;
+    border: none;
+    border-radius: 10px;
+}
+
+.second-block hr {
+    position: relative;
+    top: 33px;
+    width: 110px;
+    right: 80px;
+    border: none;
+    border-top: 1px solid #cfcdcd;
+}
+.second-block .hr2 {
+    position: relative;
+    top: -10px;
+    width: 110px;
+    left: 80px;
+    border: none;
+    border-top: 1px solid #cfcdcd;
+}
+.second-block .or {
+    color: #6e6e6e;
+    font-size: 13px;
+    font-weight: 550;
+    font-family: Arial, sans-serif;
+    position: relative;
+    top: 10px;
+}
+.second-block .facebook {
+    font-family: Arial, sans-serif;
+    color: #338bff;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    top: 16px;
+    text-decoration: none;
+}
+.second-block .facebook:hover {
+    color: #65bef9;
+}
+.second-block .password {
+    position: relative;
+    top: 22px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.password a {
+    text-decoration: none;
+    color: black;
+}
+.password a:hover {
+    text-decoration: underline;
+}
+.third-block {
+    position: relative;
+    top: 490px;
+    left: 1px;
+    height: 60px;
+    width: 350px;
+    border: none;
+    border: 1px solid rgb(214, 213, 213);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+.third-block .text2 {
+    position: relative;
+    top: 7px;
+}
+.third-block a {
+    color: #338bff;
+    text-decoration: none;
+}
+.third-block a:hover {
+    color: #65bef9;
+}
+.getApp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 200px;
+    position: relative;
+    top: 550px;
+    right: 265px;
+}
+.forth-block {
+    display: flex;
+    flex-direction: row;
+}
+.ios {
+    height: 40px;
+    width: 140px;
+    position: relative;
+    top: 550px;
+    right: 310px;
+}
+.android {
+    height: 40px;
+    width: 140px;
+    position: relative;
+    top: 550px;
+    right: 315px;
+}
+
+
+/*.footer {
+    background-color: white; 
+    color: gray;
+    font-size: 12px;
+    padding: 15px 0; 
+    position: relative;
+    top: 600px;
+    bottom: 0; 
+    border-top: 1px solid #ddd;
+}
+
+.footer-contains {
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+*/
