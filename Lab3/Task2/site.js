@@ -1,0 +1,50 @@
+const taskInput = document.getElementById('taskInput');
+const taskList = document.getElementById('taskList');
+const addTaskButton = document.getElementById('addTaskButton');
+
+function addTask() {
+    const taskText = taskInput.value.trim();
+    if (taskText !== "") {
+        const listItem = document.createElement('li');
+
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+
+        const taskSpan = document.createElement('span');
+        taskSpan.textContent = taskText;
+
+
+        const deleteButton = document.createElement('button');
+        deleteButton.classList.add('delete-button');
+
+        listItem.appendChild(checkbox);
+        listItem.appendChild(taskSpan);
+        listItem.appendChild(deleteButton);
+        taskList.appendChild(listItem);
+
+
+        taskInput.value = "";
+
+
+        checkbox.addEventListener('change', function () {
+            if (this.checked) {
+                taskSpan.style.textDecoration = "line-through";
+                taskSpan.style.color = "gray";
+            } else {
+                taskSpan.style.textDecoration = "none";
+                taskSpan.style.color = "#333";
+            }
+        });
+
+        deleteButton.addEventListener('click', function () {
+            listItem.remove();
+        });
+    }
+}
+
+addTaskButton.addEventListener('click', addTask);
+taskInput.addEventListener('keydown', function (event) {
+    if (event.key === "Enter") {
+        addTask();
+    }
+});
