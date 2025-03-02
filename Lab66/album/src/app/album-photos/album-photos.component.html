@@ -1,0 +1,10 @@
+<div class="photos-gallery">
+  <div class="photo-card" *ngFor="let photo of albumphotos">
+    <img [src]="photo.thumbnailUrl" [alt]="photo.title">
+    <p>{{ photo.title }}</p>
+  </div>
+</div>
+
+<ng-template #noPhotos>
+  <p>🚫 No magical images found for this album.</p>
+</ng-template>

@@ -1,0 +1,20 @@
+<div *ngIf="loaded" class="album-details">
+  <h2>📖 Album Details</h2>
+  <div>
+    <label class="album-title">Title:</label>
+    <input *ngIf="isEditing" [(ngModel)]="album.title" class="input-box" />
+    <span *ngIf="!isEditing">{{ album.title }}</span>
+  </div>
+
+  <button (click)="toggleEdit()">
+    {{ isEditing ? 'Cancel' : 'Edit' }}
+  </button>
+  <button *ngIf="isEditing" (click)="saveTitle()">💾 Save</button>
+
+  <button (click)="goBack()">🔙 Return</button>
+
+
+  <div class="photos-link">
+    <a [routerLink]="['/albums', album.id, 'photos']">View Album Photos</a>
+  </div>
+</div>
