@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+nav {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-bottom: 2px solid #c9a36d;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #e3c88c;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #ffd700;
+    text-shadow: 0 0 10px #ffcc00;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  

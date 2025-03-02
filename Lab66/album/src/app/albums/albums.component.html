@@ -1,0 +1,10 @@
+<div class="album-list">
+  <div class="album-card" *ngFor="let album of albums">
+    <a [routerLink]="['/albums', album.id]" class="album-title">{{ album.title }}</a>
+    <button (click)="deleteAlbum(album.id)">❌ Banish Album</button>
+  </div>
+</div>
+
+<ng-template #loadingBlock>
+  <p>📜 Albums are being summoned... Please wait. 🔮</p>
+</ng-template>
