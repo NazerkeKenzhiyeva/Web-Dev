@@ -1,0 +1,16 @@
+.album-detail-container {
+    padding: 20px;
+    background-color: #fff3e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .album-detail-container h2 {
+    color: #ff7043;
+  }
+  
+  .album-detail-container p {
+    color: #333;
+    font-size: 1.2em;
+  }
+  

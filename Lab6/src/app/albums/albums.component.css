@@ -1,0 +1,22 @@
+.albums-container {
+    padding: 20px;
+    background-color: #e0f7fa;
+  }
+  
+  .albums-container h2 {
+    color: #00796b;
+  }
+  
+  .albums-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .albums-container li {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
