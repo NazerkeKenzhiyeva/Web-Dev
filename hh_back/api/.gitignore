@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Django
+env/
+venv/
+*.log
+
+# Node & Angular
+node_modules/
+dist/
+build/
+hh-front/.angular/cache/
+hh-front/node_modules/
+
+# IDEs
+.idea/
+.vscode/
